@@ -1,0 +1,96 @@
+html{
+    font-size: 75.5%;
+    overflow-x: hidden;
+ }
+ :root{
+    --primarycolor:#ce4a4a;
+    --secondarycolor:rgb(218, 87, 120);
+    --lightcolor:#5a262f;
+    --bgcolor-1: rgba(247, 169, 169, 0.473);
+    --bgcolor-2: rgba(236, 172, 172, 0.384);
+    --padding:5%;
+ 
+ }
+ 
+  body{
+       color: black;
+       height: 1800px;
+   background-size: 100%;
+   background-color: rgb(245, 193, 193);
+   display: flex;
+   flex-direction: column;
+   
+   
+   }
+ span{
+    color: var(--secondarycolor);
+ 
+ }
+ h2{
+    font-size: 35px;
+   
+ }
+ section{
+    padding-top: 2rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    
+ }
+ nav{
+    padding-top: 2rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: var(--bgcolor-1);
+ 
+ }
+ nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin:0.5rem 1rem;
+ font-size: 20px;
+ }
+ nav ul li a{
+    color: rgb(160, 9, 9);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s;
+ }
+ nav ul li a:hover{
+    color: var(--primarycolor);
+ }
+ .home nav  span{
+    color:rgb(248, 250, 251);
+    text-transform: uppercase;
+ 
+ }
+ .home nav {
+    text-transform: uppercase;
+    color: rgb(143, 3, 3); 
+ }
+ .me{
+    background-color: var(--secondarycolor);
+    color: var(--lightcolor);
+    text-decoration: none;
+    font-weight: bolder;
+    border: 2px solid transparent ;
+    padding: 0.8rem 1.87rem;
+    border-radius: 30rem;
+    transition: 1s;
+ }
+ .me:hover{
+    background-color: transparent;
+    border: 2px solid var(--primarycolor);
+ 
+ 
+ } 
+ .footer {
+    background-color: rgba(243, 179, 198, 0.466);
+    color: rgb(48, 1, 36);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+ }
