@@ -92,7 +92,7 @@ function getRandomNumber(min, max) {
   return employeeId;
 }
 
-// Function to calculate net salary after applying tax
+
 function calculateNetSalary(salary) {
   var taxPercent = 7.5;
   var taxAmount = (salary * taxPercent) / 100;
@@ -100,14 +100,14 @@ function calculateNetSalary(salary) {
   return netSalary;
 }
 
-// Salary table for each employee level
+
 var salaryTable = {
   Senior: { min: 1500, max: 2000 },
   "Mid-Senior": { min: 1000, max: 1500 },
   Junior: { min: 500, max: 1000 },
 };
 
-// Object literals for each employee
+
 var employee1 = {
   employeeId: generateEmployeeId(),
   fullName: "Ghazi Samer",
