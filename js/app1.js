@@ -285,7 +285,14 @@ let empInfo = document.createElement("div");
 let body = document.getElementsByTagName("body")[0];
 body.appendChild(empInfo);
 
+empInfo.style.alignItems = "center";
+empInfo.style.display = "flex";
+empInfo.style.flexDirection = "colomn";
+empInfo.style.justifyContent = "center";
+empInfo.style.height = "100%";
 
+
+empInfo.style.justifyContent = "center";
 
 
 
@@ -330,12 +337,14 @@ empImage.style.width = "100px ";
 empImage.style.margin = "10px ";
 
 leenInfo.style.border = "2px solid brown";
-leenInfo.style.height = "300px ";
-leenInfo.style.width = "150px ";
+leenInfo.style.height = "350px ";
+leenInfo.style.width = "350px ";
 leenInfo.style.margin = "10px ";
 leenInfo.style.padding = "3rem 2rem";
+leenInfo.style.textAlign = "center";
 leenInfo.style.background = "#ffffff8f";
 leenInfo.style.boxShadow = ".1rem .1rem .8rem #ccc";
+
 
 
 
@@ -382,12 +391,14 @@ noorImage.style.width = "100px ";
 noorImage.style.margin = "10px ";
 
 noorInfo.style.border = "2px solid brown";
-noorInfo.style.height = "300px ";
-noorInfo.style.width = "150px ";
+noorInfo.style.height = "350px ";
+noorInfo.style.width = "350px ";
 noorInfo.style.margin = "10px ";
 noorInfo.style.padding = "3rem 2rem";
 noorInfo.style.background = "#ffffff8f";
+noorInfo.style.textAlign = "center";
 noorInfo.style.boxShadow = ".1rem .1rem .8rem #ccc";
+
 
 
 
@@ -413,8 +424,7 @@ ramaInfo.appendChild(ramaSalary);
 
 let ramaLevel = document.createElement("h3");
 ramaLevel.textContent = `Level: ${rama.level}`;
-ramaInfo.appendChild(ramaLevel);
-
+ramaInfo.appendChild(ramaLevel); 
 
 
 let ramaId = document.createElement("h3");
@@ -433,11 +443,12 @@ ramaImage.style.width = "100px ";
 ramaImage.style.margin = "10px ";
 
 ramaInfo.style.border = "2px solid brown";
-ramaInfo.style.height = "300px ";
-ramaInfo.style.width = "150px ";
+ramaInfo.style.height = "350px ";
+ramaInfo.style.width = "350px ";
 ramaInfo.style.margin = "10px ";
 ramaInfo.style.padding = "3rem 2rem";
 ramaInfo.style.background = "#ffffff8f";
+ramaInfo.style.textAlign = "center";
 ramaInfo.style.boxShadow = ".1rem .1rem .8rem #ccc";
 
 
@@ -485,11 +496,12 @@ rahofImage.style.width = "100px ";
 rahofImage.style.margin = "10px ";
 
 rahofInfo.style.border = "2px solid brown";
-rahofInfo.style.height = "300px ";
-rahofInfo.style.width = "150px ";
+rahofInfo.style.height = "350px ";
+rahofInfo.style.width = "350px ";
 rahofInfo.style.margin = "10px ";
 rahofInfo.style.padding = "3rem 2rem";
 rahofInfo.style.background = "#ffffff8f";
+rahofInfo.style.textAlign = "center";
 rahofInfo.style.boxShadow = ".1rem .1rem .8rem #ccc";
 
 
@@ -534,11 +546,12 @@ aboodImage.style.width = "100px ";
 aboodImage.style.margin = "10px ";
 
 aboodInfo.style.border = "2px solid brown";
-aboodInfo.style.height = "330px ";
-aboodInfo.style.width = "150px ";
+aboodInfo.style.height = "350px ";
+aboodInfo.style.width = "350px ";
 aboodInfo.style.margin = "10px ";
 aboodInfo.style.padding = "3rem 2rem";
 aboodInfo.style.background = "#ffffff8f";
+aboodInfo.style.textAlign = "center";
 aboodInfo.style.boxShadow = ".1rem .1rem .8rem #ccc";
 
 
@@ -590,10 +603,11 @@ hamoodImage.style.width = "100px ";
 hamoodImage.style.margin = "10px ";
 
 hamoodInfo.style.border = "2px solid brown";
-hamoodInfo.style.height = "330px ";
-hamoodInfo.style.width = "150px ";
+hamoodInfo.style.height = "350px ";
+hamoodInfo.style.width = "350px ";
 hamoodInfo.style.margin = "10px ";
 hamoodInfo.style.padding = "3rem 2rem";
+hamoodInfo.style.textAlign = "center";
 hamoodInfo.style.background = "#ffffff8f";
 hamoodInfo.style.boxShadow = ".1rem .1rem .8rem #ccc";
 
